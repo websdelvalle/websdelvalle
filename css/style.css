@@ -203,7 +203,7 @@ button.close {
     font-size: 1em;
     border: none;
     color: #fff;
-    background:#8e44ad;
+    background:#81d4fa;
     outline: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -252,7 +252,7 @@ button.close {
     margin: 0;
 }
 .w3agile_social_icons ul li i {
-    color: #8e44ad;
+    color: #81d4fa;
     font-size: 1em;
 }
 .w3agile_social_icons ul li i:hover {
@@ -345,7 +345,7 @@ nav.navbar.navbar-default {
     background: none;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #8e44ad;
+    color: #81d4fa;
 }
 .navbar-nav > li > a {
     margin: 0;
@@ -641,7 +641,7 @@ nav.navbar.navbar-default {
 }
 .callbacks_nav.next {
     left: auto;
-    background: url(../images/left.png) no-repeat 11px 9px  #8e44ad;
+    background: url(../images/left.png) no-repeat 11px 9px  #81d4fa;
     right: 47.05%;
 }
 .callbacks_nav.next:hover {
@@ -649,7 +649,7 @@ nav.navbar.navbar-default {
 }
 .callbacks_nav.prev {
     left: auto;
-    background: url(../images/right.png) no-repeat 8px 10px #8e44ad;
+    background: url(../images/right.png) no-repeat 8px 10px #81d4fa;
     left: 47%;
 }
 .callbacks_nav.prev:hover {
@@ -847,7 +847,7 @@ h3.top-about, .w3layouts-services-heading h3, h3.w3ls-title, #team h3, section.p
 .about-wel h5 {
     font-size: 1.6em;
     text-transform: uppercase;
-    color: #8e44ad;
+    color: #81d4fa;
     letter-spacing: 1px;
 }
 .about-wel ul li{
@@ -863,11 +863,11 @@ h3.top-about, .w3layouts-services-heading h3, h3.w3ls-title, #team h3, section.p
     letter-spacing: 1px;
 }
 .about-wel ul li a:hover {
-    color: #8e44ad;
+    color: #81d4fa;
 }
 .about-wel ul li a i{
 	margin: 0 10px 0 0;
-	color: #8e44ad;
+	color: #81d4fa;
 }
 .about-img2 {
     border-left: 1px solid #cec9c9;
@@ -922,7 +922,7 @@ h3.top-about, .w3layouts-services-heading h3, h3.w3ls-title, #team h3, section.p
 }
 .w3l-services-grid:hover div.w3ls-services-img i {
     background:transparent;
-    color: #8e44ad;
+    color: #81d4fa;
 	 transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1060,7 +1060,7 @@ div#team {
 .team-text p {
     font-size: 15px;
     margin: 12px 0;
-	color:#8e44ad;
+	color:#81d4fa;
 }
 .team-text ul li{
 	display:inline-block;
@@ -1133,7 +1133,7 @@ div#team {
 }
 .wthree_testimonials_grid1 h5{
 	font-size: 1em;
-    color: #8e44ad;
+    color: #81d4fa;
     margin: 1.5em 0 1em;
 }
 .wthree_testimonials_grid1 p{
@@ -1207,7 +1207,7 @@ div#team {
 /*-- //Testimonials --*/
 /*-- contact --*/
 .contact_w3agile h3 {
-    color: #8e44ad;
+    color: #81d4fa;
 }
 .contact_w3agile {
     background: url(../images/bgc.jpg) no-repeat 0px 0px fixed;
@@ -1277,7 +1277,7 @@ div#team {
     -ms-transition: 0.5s all;
 }
 .contact_w3agile form input[type="submit"]:hover,.contact_w3agile form input[type="text"]:hover,.contact_w3agile form input[type="email"]:hover,.contact_w3agile textarea:hover {
-    border: 2px solid #8e44ad;
+    border: 2px solid #81d4fa;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -1325,7 +1325,7 @@ a.dropdown-toggle.menu__link {
     padding: 4em 0em;
 }
 .ftr-grid h3, .services-grids h3 {
-    color: #8e44ad;
+    color: #81d4fa;
     font-size: 1.6em;
     letter-spacing: 1px;
     margin-bottom: 0.5em;
@@ -1407,7 +1407,7 @@ a.dropdown-toggle.menu__link {
     border: 1px solid #312e2e;
 }
 .w3ls-social-icons-2 i:hover {
-	background: #8e44ad;
+	background: #81d4fa;
     color: #fff;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -1429,7 +1429,7 @@ a.dropdown-toggle.menu__link {
     font-size: 1em;
 }
 .copyrights p a {
-    color: #8e44ad;
+    color: #81d4fa;
 }
 .copyrights p a:hover {
     color: #fff;
@@ -1602,10 +1602,10 @@ span.menu {
 @media(max-width: 1024px){
 	.callbacks_nav.next {
 		right: 44.7%;
-		background: url(../images/left.png) no-repeat 13px 11px #8e44ad;
+		background: url(../images/left.png) no-repeat 13px 11px #81d4fa;
 	}
 	.callbacks_nav.prev {
-		background: url(../images/right.png) no-repeat 12px 12px #8e44ad;
+		background: url(../images/right.png) no-repeat 12px 12px #81d4fa;
 	}
 	.slider-info h3 {
 		font-size: 1.3em;
@@ -1810,7 +1810,7 @@ span.menu {
 }
 @media(max-width: 767px){
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #8e44ad !important;
+		background-color: #81d4fa !important;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #000 !important;
