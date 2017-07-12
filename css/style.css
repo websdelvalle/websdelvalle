@@ -947,7 +947,7 @@ h3.top-about, .w3layouts-services-heading h3, h3.w3ls-title, #team h3, section.p
 /*-- Special --*/
 .spldishes-w3left {
     padding: 2.9em 2em;
-    background-color: #8e44ad;
+    background-color: #175e70;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
@@ -1037,7 +1037,7 @@ h3.top-about, .w3layouts-services-heading h3, h3.w3ls-title, #team h3, section.p
 /*-- //Special --*/
 /*-- team --*/
 div#team {
-    background: #8e44ad;
+    background: #175e70;
 }
 .capabil-grid h5 {
     color: #00C6D7;
