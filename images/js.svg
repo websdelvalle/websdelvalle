@@ -47,9 +47,9 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g26" />
+     inkscape:current-layer="svg14" />
   <g
-     transform="matrix(1.4397591,0,0,1.439583,69.029125,115.56264)"
+     transform="matrix(1.5429461,0,0,1.530952,42.683137,112.89435)"
      id="g11">
     <path
        class="st0"
@@ -72,5 +72,11 @@
   </g>
   <g
      transform="matrix(0.74999997,0,0,0.74999997,632.41145,126.12745)"
-     id="g26" />
+     id="g26">
+    <path
+       inkscape:connector-curvature="0"
+       d="m -331.5641,-115.68407 v 93.828095 h -70.56362 v 52.126714 h 118.3648 V -115.68407 Z m 70.56366,0 v 54.334288 l 52.1306,44.706476 h -52.1306 v 46.914045 h 120.64107 v -47.23723 l -58.41532,-51.803529 h 58.41532 v -46.91405 z"
+       id="path11"
+       style="stroke-width:2.43570566" />
+  </g>
 </svg>
