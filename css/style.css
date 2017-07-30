@@ -2556,4 +2556,15 @@ span.menu {
 		font-size: 2.5em;
 	}
 }
+
+.afip {
+    bottom: 5px;
+    position: absolute;
+    right: 15px;
+}
+.afip2 {
+    bottom: 5px;
+    position: absolute;
+    right: 75px;
+}
 /*--//responsive--*/
