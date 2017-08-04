@@ -12,6 +12,9 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 const mozjpeg = require('imagemin-mozjpeg');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
 
+//COPIAR ARCHIVOS
+grunt.loadNpmTasks('grunt-contrib-copy');
+
 //INICIO DE GRUNT
 grunt.initConfig({
 clean: ['dist/*'],
@@ -46,12 +49,22 @@ imagemin: {
                 dest: 'dist/'
             }]
         }
-    }
+},
+copy: {
+  main: {
+    files: [
+      // includes files within path and its sub-directories 
+      {expand: true, src: ['index.html'], dest: 'dist/'},
+      {expand: true, src: ['fonts/'], dest: 'dist/'},
+      {expand: false, src: ['images/*.svg'], dest: 'dist/'},
+    ],
+  },
+},
 
 });
 
 
 
-grunt.registerTask('default',['clean','uglify','cssmin','imagemin']);
+grunt.registerTask('default',['clean','uglify','cssmin','imagemin','copy']);
 
 };
