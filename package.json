@@ -15,8 +15,10 @@
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-filerev": "^2.3.1",
-    "grunt-usemin": "^3.1.1"
+    "grunt-usemin": "^3.1.1",
+    "imagemin-mozjpeg": "^6.0.0"
   }
 }
