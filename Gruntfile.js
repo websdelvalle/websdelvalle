@@ -6,24 +6,39 @@ grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-contrib-concat');
 //MINIFICA JAVASCRIPT
 grunt.loadNpmTasks('grunt-contrib-uglify');
+//MINIFICA CSS
+grunt.loadNpmTasks('grunt-contrib-cssmin');
 //INICIO DE GRUNT
 grunt.initConfig({
 clean: ['dist/*'],
-concat:{
-	options:{
-		separator:';',
-	},
-	dist:
-	{
-	src:['js/*.js'],
-	dest:'dist/js/build.js'
-	}
-
+//MINIFICAR JAVASCRIPT
+uglify: {
+    javascript: {
+      files: [{
+        expand: true,
+        src: 'js/*.js',
+        dest: 'dist/'
+      }]
+    }
+},
+cssmin: {
+  options: {
+    mergeIntoShorthands: false,
+    roundingPrecision: -1
+  },
+  target: {
+    files: [{
+        expand: true,
+        src: 'css/*.css',
+        dest: 'dist/'
+      }]
+  }
 }
+
 });
 
 
 
-grunt.registerTask('default',['clean','concat']);
+grunt.registerTask('default',['clean','uglify','cssmin']);
 
 };

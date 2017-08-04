@@ -71,12 +71,12 @@
 	transition:.5s all;
 }
 
-.owl-theme .owl-controls .owl-page.active span,
+/*.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	filter: Alpha(Opacity=100);/*IE7 fix*/
+	filter: Alpha(Opacity=100);
 	background: #23B684;
 }
-}
+}*/
 
 /* If PaginationNumbers is true */
 
