@@ -1,7 +1,9 @@
 module.exports=function(grunt)
 {
-grunt.registerTask('default',function(){
+grunt.registerTask('minificarcss',function(){
 console.log("okey");
 });
+
+grunt.registerTask('default',['minificarcss']);
 
 };
