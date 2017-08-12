@@ -12,6 +12,9 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 const mozjpeg = require('imagemin-mozjpeg');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
 
+//MINIFICAR HTML
+grunt.loadNpmTasks('grunt-contrib-htmlmin');
+
 //COPIAR ARCHIVOS
 grunt.loadNpmTasks('grunt-contrib-copy');
 
@@ -48,23 +51,44 @@ imagemin: {
                 src: ['images/*.{png,jpg,gif}'],
                 dest: 'dist/'
             }]
+        },
+        masreduc: {
+        	options: {
+                optimizationLevel: 7
+            },
+            files: [{
+                expand: true,
+                src: ['images/DATAWEB.jpg'],
+                dest: 'dist/'
+            }]
         }
+
 },
 copy: {
   main: {
     files: [
       // includes files within path and its sub-directories 
-      {expand: true, src: ['index.html'], dest: 'dist/'},
       {expand: true, src: ['fonts/'], dest: 'dist/'},
       {expand: false, src: ['images/*.svg'], dest: 'dist/'},
     ],
   },
 },
+htmlmin: {                                     // Task
+    dist: {                                      // Target
+      options: {                                 // Target options
+        removeComments: true,
+        collapseWhitespace: true
+      },
+      files: {                                   // Dictionary of files
+        'dist/index.html': 'index.html',     // 'destination': 'source'
+      }
+    }
+  }
 
 });
 
 
 
-grunt.registerTask('default',['clean','uglify','cssmin','imagemin','copy']);
+grunt.registerTask('default',['clean','uglify','cssmin','imagemin','copy','htmlmin']);
 
 };
