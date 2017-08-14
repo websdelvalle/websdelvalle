@@ -88,7 +88,6 @@ htmlmin: {                                     // Task
 });
 
 
-
 grunt.registerTask('default',['clean','uglify','cssmin','imagemin','copy','htmlmin']);
 
 };
